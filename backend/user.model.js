@@ -7,6 +7,7 @@ const User = mongoose.model(
         secondname: String,
         email: String,
         password: String,
+        gender : String,
         genderPref: String,
         _online: Boolean,
         _available: Boolean,
